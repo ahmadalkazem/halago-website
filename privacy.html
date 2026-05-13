@@ -9,6 +9,8 @@
         .container { background-color: #fff; padding: 40px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
         h1 { color: #1e3a8a; } h2 { color: #2563eb; margin-top: 30px; border-bottom: 2px solid #eee; padding-bottom: 5px; }
         ul { margin-bottom: 20px; }
+        a { color: #2563eb; text-decoration: none; }
+        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
@@ -23,7 +25,7 @@
         <p>To provide our services, process payments, and ensure a fair environment free of fraud, we collect the following types of information:</p>
         <p><strong>A. Personal Information (Provided by You):</strong></p>
         <ul>
-            <li><strong>Account Data:</strong> Name and Email address (collected via registration or Google Sign-In).</li>
+            <li><strong>Account Data:</strong> Name, Email address, and profile picture (collected via registration or Google Sign-In authentication).</li>
             <li><strong>Payment Data:</strong> Wallet addresses (e.g., Binance Pay ID, MTN and Syriatel number, Sham Cash wallet address) provided by you strictly for the purpose of processing withdrawals.</li>
         </ul>
         <p><strong>B. Device and Technical Information (Automatically Collected):</strong></p>
@@ -35,14 +37,20 @@
 
         <h2>3. How We Use Your Information</h2>
         <ul>
-            <li><strong>Service Delivery:</strong> To create your account and manage your points balance.</li>
+            <li><strong>Service Delivery:</strong> To create your account, sync your game progress, and manage your points balance.</li>
             <li><strong>Payment Processing:</strong> To accurately send your earnings to the wallet details you provided.</li>
             <li><strong>Fraud Prevention:</strong> To detect and block suspicious activities, such as using Emulators, VPNs, or bots.</li>
-            <li><strong>Third-Party Verification:</strong> To communicate with our advertising partners to confirm that you have successfully completed a task.</li>
+            <li><strong>Communications:</strong> To send you push notifications regarding your account status, rewards, and updates (via OneSignal).</li>
         </ul>
 
-        <h2>4. Third-Party Services (Offerwalls)</h2>
-        <p>HalaGo integrates with third-party providers (Offerwalls) such as Ovnix, Flexwall, Playtime, and others to provide earning opportunities. These third parties may collect information directly from you to validate your tasks.</p>
+        <h2>4. Third-Party Services and SDKs</h2>
+        <p>HalaGo integrates with third-party providers to deliver its services. These third parties may collect information directly from you according to their own privacy policies:</p>
+        <ul>
+            <li><strong>Offerwalls:</strong> Providers such as Ovnix, Flexwall, Playtime, and others collect data to validate your tasks and surveys.</li>
+            <li><strong>Google AdMob:</strong> Used for displaying advertisements. AdMob may collect and use your GAID to provide personalized ads.</li>
+            <li><strong>Supabase:</strong> Used as our secure backend database and authentication provider.</li>
+            <li><strong>OneSignal:</strong> Used for managing and sending push notifications.</li>
+        </ul>
         <p><em>Disclaimer:</em> We do not control the privacy practices of these third parties. We strongly encourage you to review their privacy policies before engaging with their offers.</p>
 
         <h2>5. Data Retention and Deletion Policy</h2>
@@ -50,16 +58,16 @@
         <p><strong>How to delete your account and data:</strong></p>
         <p>You can request account deletion using one of the following methods:</p>
         <ul>
-            <li><strong>Inside the App:</strong> Go to the "Profile" section and click on "Delete Account".</li>
+            <li><strong>Inside the App:</strong> Go to the "Profile" section, click on "Account", and select "Delete Account".</li>
             <li><strong>Via Web:</strong> If you no longer have the app installed, you can request account deletion by visiting our dedicated deletion page: <a href="https://legal.halago.co/delete-account" target="_blank">Request Account Deletion</a>.</li>
         </ul>
-        <p>Once your request is received, all your data (including points, transaction history, and personal information) will be permanently deleted from our active servers within 30 days.</p>
+        <p>Once your request is received, all your data (including points, transaction history, and personal information) will be permanently deleted from our active servers.</p>
 
         <h2>6. Security of Your Information</h2>
-        <p>We use administrative, technical, and physical security measures to help protect your personal information. However, no electronic transmission over the internet is 100% secure.</p>
+        <p>We use administrative, technical, and physical security measures (including secure RPC calls and Row Level Security) to help protect your personal information. However, no electronic transmission over the internet is 100% secure.</p>
 
         <h2>7. Children’s Privacy</h2>
-        <p>HalaGo is not intended for use by persons under the age of 18. We do not knowingly collect personal information from children under 18.</p>
+        <p>HalaGo is not intended for use by persons under the age of 18. We do not knowingly collect personal information from children under 18. If we become aware that we have collected data from a child, we will delete it immediately.</p>
 
         <h2>8. Changes to This Privacy Policy</h2>
         <p>We may update this Privacy Policy from time to time. We encourage you to review this policy periodically.</p>
