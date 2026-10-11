@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms of Service · HalaGo</title>
+<meta name="description" content="The rules for using HalaGo: eligibility, points, withdrawals, payout timing, fair play and account closure.">
+<meta name="theme-color" content="#0A1226">
+<link rel="canonical" href="https://legal.halago.co/terms">
+<link rel="icon" href="https://halago.co/assets/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="HalaGo">
+<meta property="og:title" content="Terms of Service · HalaGo">
+<meta property="og:description" content="The rules for using HalaGo: eligibility, points, withdrawals, payout timing, fair play and account closure.">
+<meta property="og:url" content="https://legal.halago.co/terms">
+<meta property="og:image" content="https://halago.co/assets/og.png">
+<script>try{var t=localStorage.getItem("hg_theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0A1226;--deck:#111C36;--deck2:#16244A;--line:#22335C;--sky:#2C82C9;--skyhi:#5AA9EA;
+  --go:#A4E49B;--gofill:#A4E49B;--goink:#0B2A14;--ink:#EAF1FB;--ink2:#9FB0CC;--ink3:#6B7FA3;
+  --amber:#F5B83D;--coral:#FF7A7A;--paper:#F7F4EC;--paperink:#1B2333;
+  --hero1:#1A3170;--hero2:#122454;--hero3:#0F1D44;--topbar:rgba(10,18,38,.86);
+  --r-hero:24px;--r-card:16px;--r-ctl:12px;
+  color-scheme:dark;
+}
+:root[data-theme="light"]{
+  --bg:#F3F6FB;--deck:#FFFFFF;--deck2:#EEF3FA;--line:#DCE4F0;--sky:#1E66B0;--skyhi:#2C82C9;
+  --go:#2F9E44;--gofill:#A4E49B;--goink:#0B2A14;--ink:#0E1A33;--ink2:#4A5B7A;--ink3:#7A8AA6;
+  --amber:#B7791F;--coral:#D64545;--paper:#FFFDF7;--paperink:#1B2333;
+  --hero1:#1A3170;--hero2:#163071;--hero3:#1E3A8A;--topbar:rgba(243,246,251,.88);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:light){
+  :root:not([data-theme="dark"]){
+    --bg:#F3F6FB;--deck:#FFFFFF;--deck2:#EEF3FA;--line:#DCE4F0;--sky:#1E66B0;--skyhi:#2C82C9;
+    --go:#2F9E44;--gofill:#A4E49B;--goink:#0B2A14;--ink:#0E1A33;--ink2:#4A5B7A;--ink3:#7A8AA6;
+    --amber:#B7791F;--coral:#D64545;--paper:#FFFDF7;--paperink:#1B2333;
+    --hero1:#1A3170;--hero2:#163071;--hero3:#1E3A8A;--topbar:rgba(243,246,251,.88);
+    color-scheme:light;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.7 Archivo,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--skyhi);text-decoration:none;text-underline-offset:3px}
+a:hover{text-decoration:underline}
+:focus-visible{outline:2px solid var(--skyhi);outline-offset:3px;border-radius:6px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--deck);color:var(--ink);padding:8px 14px;border-radius:10px;z-index:99}
+.skip:focus{left:12px}
+.x{font-stretch:112.5%;font-weight:800;letter-spacing:-.01em}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+
+/* top bar */
+.top{position:sticky;top:0;z-index:20;background:var(--topbar);backdrop-filter:saturate(1.4) blur(12px);-webkit-backdrop-filter:saturate(1.4) blur(12px);border-bottom:1px solid var(--line)}
+.top .wrap{height:64px;display:flex;align-items:center;gap:20px}
+.brand{display:flex;align-items:center;gap:10px;color:var(--ink);font-size:19px;white-space:nowrap}
+.brand:hover{text-decoration:none}
+.brand b{color:var(--go)}
+.mark{width:32px;height:32px;border-radius:9px;flex:none;display:block}
+.tag{font:600 11px/1 Archivo,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);border:1px solid var(--line);padding:6px 9px;border-radius:999px}
+.nav{display:flex;gap:4px;margin-left:auto}
+.nav a{color:var(--ink2);font-weight:600;font-size:14px;padding:8px 12px;border-radius:999px}
+.nav a:hover{color:var(--ink);background:var(--deck2);text-decoration:none}
+.nav a[aria-current="page"]{color:var(--ink);background:var(--deck2);box-shadow:inset 0 0 0 1px var(--line)}
+.icon-btn{width:38px;height:38px;border-radius:999px;border:1px solid var(--line);background:var(--deck);color:var(--ink2);display:grid;place-items:center;cursor:pointer;flex:none}
+.icon-btn:hover{color:var(--ink)}
+.icon-btn svg{width:18px;height:18px}
+.i{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.sun{display:none}
+:root[data-theme="light"] .sun{display:block}:root[data-theme="light"] .moon{display:none}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]) .sun{display:block}:root:not([data-theme="dark"]) .moon{display:none}}
+
+/* hero */
+.hero{padding:34px 0 8px}
+.hero-card{position:relative;overflow:hidden;border-radius:var(--r-hero);padding:44px 44px 40px;color:#EAF1FB;
+  background:radial-gradient(120% 140% at 100% 0%,rgba(90,169,234,.22),transparent 55%),linear-gradient(135deg,var(--hero1),var(--hero2) 55%,var(--hero3));
+  box-shadow:0 1px 0 rgba(255,255,255,.06) inset,0 24px 60px -30px rgba(5,10,23,.7)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font:700 12px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#A4E49B}
+.eyebrow::before{content:"";width:18px;height:3px;border-radius:3px;background:#A4E49B}
+.hero h1{margin:14px 0 12px;font-size:clamp(30px,5.4vw,54px);line-height:1.04;max-width:14ch}
+.hero p.lead{margin:0;max-width:60ch;color:#C9D6EC;font-size:17px}
+.meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.chip{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:600;color:#DCE6F7;background:rgba(10,18,38,.35);border:1px solid rgba(255,255,255,.12);padding:7px 12px;border-radius:999px}
+.chip .i{width:15px;height:15px}
+.streaks{position:absolute;right:-6px;top:30px;width:min(340px,46%);height:auto;opacity:.95;pointer-events:none}
+
+/* layout */
+.layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:48px;padding:32px 0 72px;align-items:start}
+.toc{position:sticky;top:88px;font-size:14px}
+.toc h2{font:700 11px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);margin:6px 0 12px 12px}
+.toc ol{list-style:none;margin:0;padding:0;counter-reset:t}
+.toc li a{display:flex;gap:10px;padding:7px 12px;border-radius:10px;color:var(--ink2);line-height:1.35}
+.toc li a::before{counter-increment:t;content:counter(t,decimal-leading-zero);font-variant-numeric:tabular-nums;color:var(--ink3);font-weight:600;min-width:20px}
+.toc li a:hover{background:var(--deck2);color:var(--ink);text-decoration:none}
+.toc li a.on{background:var(--deck);color:var(--ink);box-shadow:inset 2px 0 0 var(--go),inset 0 0 0 1px var(--line)}
+.toc-m{display:none}
+
+article{min-width:0}
+.summary{background:var(--deck);border:1px solid var(--line);border-radius:var(--r-card);padding:24px 26px;margin-bottom:34px}
+.summary h2{margin:0 0 14px;font-size:20px}
+.ticks{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.ticks li{display:flex;gap:12px;color:var(--ink2)}
+.ticks li::before{content:"";flex:none;width:20px;height:20px;margin-top:3px;border-radius:999px;background:var(--gofill) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230B2A14' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.2 4.2L19 7'/%3E%3C/svg%3E") center/12px no-repeat}
+.ticks li b{color:var(--ink)}
+
+section.sec{scroll-margin-top:88px;padding:6px 0 26px;border-bottom:1px solid var(--line);margin-bottom:28px}
+section.sec:last-of-type{border-bottom:0}
+.sec h2{display:flex;align-items:baseline;gap:14px;margin:0 0 14px;font-size:clamp(21px,2.6vw,26px);line-height:1.2}
+.sec h2 .n{font:700 13px/1 Archivo,sans-serif;color:var(--go);font-variant-numeric:tabular-nums;letter-spacing:.04em;transform:translateY(-3px)}
+.sec h3{margin:22px 0 8px;font-size:16.5px;font-weight:700}
+.sec p{margin:0 0 14px;color:var(--ink2)}
+.sec p b,.sec li b{color:var(--ink);font-weight:650}
+.sec ul,.sec ol{margin:0 0 16px;padding-left:22px;color:var(--ink2)}
+.sec li{margin:6px 0;padding-left:4px}
+.sec ul li::marker{color:var(--go)}
+.sec ol li::marker{color:var(--ink3);font-weight:700}
+
+.note{display:flex;gap:14px;border-radius:var(--r-ctl);padding:16px 18px;margin:6px 0 18px;border:1px solid var(--line);background:var(--deck)}
+.note .i{margin-top:3px;width:20px;height:20px}
+.note p{margin:0!important}
+.note.info{border-color:color-mix(in srgb,var(--sky) 45%,var(--line));background:color-mix(in srgb,var(--sky) 9%,var(--deck))}
+.note.info .i{color:var(--skyhi)}
+.note.warn{border-color:color-mix(in srgb,var(--amber) 45%,var(--line));background:color-mix(in srgb,var(--amber) 8%,var(--deck))}
+.note.warn .i{color:var(--amber)}
+.note.bad{border-color:color-mix(in srgb,var(--coral) 45%,var(--line));background:color-mix(in srgb,var(--coral) 8%,var(--deck))}
+.note.bad .i{color:var(--coral)}
+.note.legal{border:1px solid var(--line);background:var(--deck2)}
+.note.legal p{color:var(--ink)!important;font-weight:600}
+
+.tbl{width:100%;border-collapse:separate;border-spacing:0;margin:4px 0 18px;font-size:14.5px;border:1px solid var(--line);border-radius:var(--r-ctl);overflow:hidden;background:var(--deck)}
+.tbl th,.tbl td{text-align:left;vertical-align:top;padding:12px 14px;border-bottom:1px solid var(--line)}
+.tbl tr:last-child td{border-bottom:0}
+.tbl th{font:700 11.5px/1.2 Archivo,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);background:var(--deck2)}
+.tbl td{color:var(--ink2)}
+.tbl td:first-child{color:var(--ink);font-weight:600;width:28%}
+.tbl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:4px 0 18px}
+.card{background:var(--deck);border:1px solid var(--line);border-radius:var(--r-card);padding:20px 22px}
+.card h3{margin:0 0 8px!important;display:flex;align-items:center;gap:10px}
+.card p:last-child,.card ul:last-child{margin-bottom:0}
+.pill{display:inline-block;font:700 11px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:999px;vertical-align:middle}
+.pill.go{background:color-mix(in srgb,var(--gofill) 22%,transparent);color:var(--go)}
+.pill.amb{background:color-mix(in srgb,var(--amber) 18%,transparent);color:var(--amber)}
+.pill.cor{background:color-mix(in srgb,var(--coral) 16%,transparent);color:var(--coral)}
+.pill.sky{background:color-mix(in srgb,var(--sky) 18%,transparent);color:var(--skyhi)}
+
+.methods{display:flex;flex-wrap:wrap;gap:8px;margin:2px 0 16px}
+.methods span{font-size:13.5px;font-weight:600;color:var(--ink);background:var(--deck2);border:1px solid var(--line);padding:6px 11px;border-radius:999px}
+
+.steps{list-style:none!important;padding:0!important;counter-reset:s;display:grid;gap:10px}
+.steps li{counter-increment:s;display:flex;gap:14px;align-items:flex-start;background:var(--deck);border:1px solid var(--line);border-radius:var(--r-ctl);padding:14px 16px;margin:0!important}
+.steps li::before{content:counter(s);flex:none;width:28px;height:28px;border-radius:999px;display:grid;place-items:center;background:var(--deck2);color:var(--ink);font-weight:800;font-size:13px;box-shadow:inset 0 0 0 1px var(--line)}
+.steps li:last-child::before{background:var(--gofill);color:var(--goink);box-shadow:none}
+
+.btn{display:inline-flex;align-items:center;gap:9px;font-weight:700;font-size:15px;padding:12px 18px;border-radius:999px;border:1px solid var(--line);background:var(--deck2);color:var(--ink);cursor:pointer}
+.btn:hover{text-decoration:none;border-color:var(--ink3)}
+.btn.go{background:var(--gofill);color:var(--goink);border-color:transparent}
+.btn.go:hover{filter:brightness(1.05)}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 18px}
+
+.formbox{background:#fff;border-radius:var(--r-card);border:1px solid var(--line);overflow:hidden;margin:6px 0 14px}
+.formbox iframe{display:block;width:100%;height:880px;border:0;background:#fff}
+.formbar{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 16px;background:var(--deck2);border-bottom:1px solid var(--line);font-size:13.5px;color:var(--ink2)}
+.formbar b{color:var(--ink)}
+.formbar span{display:inline-flex;align-items:center;gap:8px}
+
+.contact{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:6px 0 4px}
+.contact a{display:flex;flex-direction:column;gap:4px;background:var(--deck);border:1px solid var(--line);border-radius:var(--r-ctl);padding:16px;color:var(--ink)}
+.contact a:hover{text-decoration:none;border-color:var(--ink3)}
+.contact small{color:var(--ink3);font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.contact span{font-weight:650;overflow-wrap:anywhere}
+
+/* footer */
+.foot{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--ink3);font-size:14px}
+.foot .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:14px 26px}
+.foot .brand{font-size:16px}
+.foot .mark{width:26px;height:26px;border-radius:7px}
+.foot nav{display:flex;flex-wrap:wrap;gap:6px 18px}
+.foot nav a{color:var(--ink2)}
+.foot .copy{margin-left:auto}
+.totop{position:fixed;right:18px;bottom:18px;z-index:15;opacity:0;pointer-events:none;transform:translateY(8px);transition:.2s}
+.totop.show{opacity:1;pointer-events:auto;transform:none}
+
+@media (max-width:960px){
+  .layout{grid-template-columns:minmax(0,1fr);gap:0;padding-top:22px}
+  .toc{display:none}
+  .toc-m{display:block;margin-bottom:22px;background:var(--deck);border:1px solid var(--line);border-radius:var(--r-ctl)}
+  .toc-m summary{cursor:pointer;list-style:none;padding:14px 16px;font-weight:700;display:flex;align-items:center;justify-content:space-between}
+  .toc-m summary::-webkit-details-marker{display:none}
+  .toc-m summary::after{content:"";width:9px;height:9px;border-right:2px solid var(--ink2);border-bottom:2px solid var(--ink2);transform:rotate(45deg) translateY(-3px);transition:.2s}
+  .toc-m[open] summary::after{transform:rotate(225deg) translateY(-1px)}
+  .toc-m ol{margin:0;padding:0 8px 10px;list-style:none;counter-reset:t}
+  .toc-m li a{display:flex;gap:10px;padding:8px 10px;border-radius:9px;color:var(--ink2);font-size:14.5px}
+  .toc-m li a::before{counter-increment:t;content:counter(t,decimal-leading-zero);color:var(--ink3);font-weight:600;min-width:20px}
+}
+@media (max-width:720px){
+  .wrap{padding-left:16px;padding-right:16px}
+  .tag,.nav{display:none}
+  .top .wrap{justify-content:space-between}
+  .hero{padding-top:18px}
+  .hero-card{padding:30px 22px 26px;border-radius:20px}
+  .hero p.lead{font-size:15.5px}
+  .streaks{width:58%;top:14px;opacity:.55}
+  .grid2,.contact{grid-template-columns:minmax(0,1fr)}
+  .summary{padding:20px}
+  .tbl td:first-child{width:auto}
+  .tbl.stack thead{display:none}
+  .tbl.stack,.tbl.stack tbody,.tbl.stack tr,.tbl.stack td{display:block;width:100%}
+  .tbl.stack tr{border-bottom:1px solid var(--line);padding:6px 0}
+  .tbl.stack tr:last-child{border-bottom:0}
+  .tbl.stack td{border:0;padding:4px 14px}
+  .tbl.stack td:first-child{padding-top:10px}
+  .tbl.stack td:last-child{padding-bottom:10px}
+  .formbox iframe{height:1000px}
+  .foot .copy{margin-left:0;width:100%}
+  .mnav{display:flex!important}
+}
+.mnav{display:none;gap:6px;overflow-x:auto;padding:10px 16px;border-bottom:1px solid var(--line);background:var(--topbar)}
+.mnav a{flex:none;color:var(--ink2);font-weight:600;font-size:13.5px;padding:7px 12px;border-radius:999px;border:1px solid var(--line)}
+.mnav a[aria-current="page"]{color:var(--goink);background:var(--gofill);border-color:transparent}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.totop{transition:none}}
+@media print{
+  :root{--bg:#fff;--deck:#fff;--deck2:#f4f6fa;--line:#d9dee8;--ink:#111;--ink2:#333;--ink3:#555;--go:#1f7a33;--skyhi:#1E66B0;color-scheme:light}
+  .top,.mnav,.toc,.toc-m,.totop,.streaks,.formbox,.icon-btn{display:none!important}
+  .hero-card{background:#fff!important;color:#111!important;box-shadow:none;border:1px solid #d9dee8;padding:24px}
+  .hero p.lead,.chip{color:#333!important}.chip{background:#fff;border-color:#d9dee8}
+  .layout{display:block;padding:16px 0}
+  section.sec{break-inside:avoid-page}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="hg-mark" viewBox="0 0 512 512"><rect width="512" height="512" rx="116" fill="#2380BD"/><svg x="86.0" y="131.4" width="340" height="249.3" viewBox="436 590 1203 882"><path fill="#A4E49B" d="M941.5 1462.1C937.6 1461.6 924.6 1459.4 912.5 1457.2C884.5 1452.0 856.6 1449.4 775.5 1444.5C742.2 1442.5 740.7 1442.4 702.0 1438.3C683.6 1436.4 664.5 1434.5 659.5 1434.0C639.7 1432.1 643.4 1429.3 668.0 1427.5C677.0 1426.9 697.3 1425.1 701.5 1424.5C706.0 1424.0 744.9 1421.3 766.5 1420.0C786.3 1418.9 806.1 1416.6 811.8 1414.9C816.5 1413.4 816.0 1410.7 809.2 1401.3C806.1 1396.9 799.5 1386.5 794.6 1378.2C788.1 1367.2 784.9 1362.8 783.1 1362.1C778.8 1360.5 752.6 1358.1 733.0 1357.5C710.4 1356.8 671.2 1354.5 649.0 1352.5C613.8 1349.4 594.4 1347.4 586.5 1346.0C583.8 1345.5 579.4 1344.9 576.8 1344.5C573.6 1344.1 572.0 1343.4 572.0 1342.4C572.0 1341.6 572.1 1341.0 572.3 1341.0C572.5 1341.0 577.6 1340.1 583.6 1339.1C596.1 1336.9 611.2 1335.3 628.5 1334.5C635.1 1334.2 645.5 1333.5 651.5 1333.0C657.5 1332.5 666.3 1331.8 671.0 1331.5C675.7 1331.3 689.6 1330.4 702.0 1329.6C714.4 1328.8 732.1 1327.8 741.5 1327.5C750.9 1327.1 760.6 1326.4 763.3 1325.8C771.1 1324.2 771.0 1324.5 771.0 1292.8C771.0 1258.7 772.0 1248.6 777.3 1231.0C779.5 1223.6 782.3 1214.0 783.6 1209.6C786.5 1200.2 786.6 1197.4 784.2 1196.1C782.0 1194.9 755.2 1192.4 730.0 1191.0C719.8 1190.4 699.4 1189.1 684.5 1188.0C669.6 1186.9 648.3 1185.3 637.0 1184.5C625.7 1183.7 612.9 1182.5 608.5 1182.0C604.1 1181.4 597.1 1180.5 593.0 1179.9C588.9 1179.4 582.6 1178.7 579.0 1178.4C571.2 1177.8 563.2 1176.1 562.5 1175.0C562.2 1174.5 562.7 1173.4 563.6 1172.6C565.0 1171.1 566.3 1170.9 574.0 1170.5C575.4 1170.4 577.6 1170.1 579.0 1169.7C584.3 1168.5 621.7 1165.0 647.0 1163.5C661.6 1162.6 682.7 1161.3 694.0 1160.5C705.3 1159.7 726.4 1158.6 741.0 1158.0C790.7 1156.1 806.9 1155.1 809.5 1153.6C812.4 1152.0 838.6 1124.6 843.9 1117.7C847.7 1112.7 848.1 1111.7 846.9 1110.6C844.9 1108.7 822.8 1106.1 795.0 1104.5C735.6 1101.0 703.7 1098.5 691.7 1096.5C690.5 1096.3 684.8 1095.6 679.0 1095.0C653.2 1092.4 648.0 1089.3 664.6 1086.4C669.0 1085.7 676.3 1084.8 681.0 1084.5C685.7 1084.2 694.5 1083.5 700.5 1083.0C706.5 1082.5 715.5 1081.8 720.5 1081.6C725.5 1081.3 735.4 1080.6 742.5 1080.0C749.6 1079.5 758.6 1078.8 762.5 1078.5C766.4 1078.2 771.1 1077.7 773.0 1077.5C774.9 1077.3 782.6 1076.8 790.0 1076.5C797.4 1076.2 806.6 1075.7 810.5 1075.5C819.8 1074.9 838.6 1074.1 859.5 1073.5C912.5 1071.9 922.3 1071.1 935.7 1066.9C961.5 1059.0 997.1 1056.2 1036.2 1058.9C1091.5 1062.8 1132.9 1079.8 1166.6 1112.3C1172.8 1118.2 1178.0 1124.1 1178.4 1125.3C1179.0 1127.8 1173.0 1133.9 1150.9 1152.8C1125.5 1174.6 1111.6 1185.0 1107.9 1185.0C1107.0 1185.0 1099.3 1180.2 1090.8 1174.2C1073.1 1161.9 1059.8 1155.2 1045.5 1151.3C1035.9 1148.7 1034.5 1148.6 1009.5 1148.5C983.5 1148.5 983.5 1148.5 972.9 1152.2C938.8 1164.0 920.8 1177.3 903.5 1203.5C887.2 1228.2 881.0 1248.3 881.0 1276.0C881.0 1300.1 884.2 1314.1 892.8 1328.4C903.6 1346.3 921.5 1360.5 942.1 1367.4C970.3 1376.8 1015.5 1374.0 1028.2 1361.9C1035.5 1355.0 1038.3 1346.3 1044.0 1313.0C1047.7 1291.6 1053.0 1263.6 1054.1 1260.2C1054.8 1258.2 1056.2 1256.5 1057.7 1255.9C1061.5 1254.5 1140.7 1254.8 1145.0 1256.3C1148.5 1257.5 1148.5 1257.5 1148.8 1264.4C1149.1 1272.4 1144.5 1303.1 1137.0 1342.0C1134.3 1356.0 1130.3 1377.3 1128.0 1389.4C1125.8 1401.4 1123.3 1412.5 1122.4 1414.1C1116.4 1425.9 1062.9 1448.3 1018.9 1457.5C1000.5 1461.4 957.4 1463.9 941.5 1462.1ZM1362.0 1461.5C1324.3 1457.0 1290.4 1445.4 1266.1 1428.7C1248.6 1416.7 1225.3 1390.3 1216.0 1372.0C1210.5 1361.0 1202.1 1334.2 1199.4 1318.5C1196.4 1300.8 1196.4 1269.4 1199.5 1252.5C1213.0 1177.8 1258.2 1116.6 1326.0 1081.2C1333.4 1077.4 1341.8 1073.5 1344.5 1072.6C1347.2 1071.8 1354.5 1069.5 1360.6 1067.6C1425.4 1047.4 1504.9 1056.8 1555.5 1090.5C1569.6 1099.9 1588.9 1117.7 1597.5 1129.2C1624.8 1165.6 1636.0 1224.5 1625.9 1278.0C1622.1 1298.2 1617.2 1312.6 1606.4 1335.5C1603.1 1342.4 1591.0 1362.6 1586.6 1368.5C1556.5 1408.5 1529.7 1428.9 1482.8 1447.4C1451.0 1460.0 1399.3 1466.0 1362.0 1461.5ZM1424.3 1370.0C1472.3 1358.1 1508.9 1317.0 1519.1 1263.7C1521.9 1248.7 1521.4 1221.8 1518.0 1210.0C1505.6 1166.5 1466.6 1143.4 1413.4 1147.9C1382.3 1150.6 1349.8 1169.7 1332.1 1195.9C1323.5 1208.5 1312.8 1232.9 1309.5 1247.5C1305.5 1265.0 1305.6 1293.6 1309.6 1309.9C1316.6 1337.5 1342.4 1363.9 1369.4 1371.0C1382.0 1374.3 1408.9 1373.8 1424.3 1370.0ZM677.0 1276.3C672.9 1276.2 661.2 1275.6 651.0 1275.0C640.8 1274.4 623.3 1273.5 612.0 1273.0C600.7 1272.4 576.9 1271.3 559.0 1270.5C541.1 1269.6 522.0 1268.5 516.5 1268.0C511.0 1267.4 496.1 1266.1 483.5 1265.0C470.9 1263.9 458.4 1262.5 455.9 1261.9C451.0 1260.8 448.0 1260.2 446.7 1260.1C445.0 1259.9 446.6 1256.5 448.5 1256.3C458.0 1255.3 484.5 1253.1 493.0 1252.6C510.3 1251.6 549.6 1249.1 563.5 1248.0C570.6 1247.5 587.3 1246.6 600.5 1246.0C613.7 1245.4 630.4 1244.5 637.5 1244.1C666.5 1242.5 705.7 1242.7 708.9 1244.6C712.7 1246.9 717.0 1254.7 717.0 1259.4C717.0 1267.1 710.4 1274.4 702.1 1276.0C697.0 1277.0 694.5 1277.0 677.0 1276.3Z"/><path fill="#FFFFFF" d="M1406.0 965.4C1370.4 960.8 1358.9 956.0 1342.8 939.1C1328.2 923.8 1322.8 910.0 1322.7 888.0C1322.7 856.3 1336.8 834.2 1366.5 819.5C1387.3 809.2 1395.6 808.0 1451.0 808.0C1502.3 808.0 1499.6 808.5 1498.7 798.6C1495.7 766.8 1474.1 750.8 1434.0 750.7C1412.8 750.6 1395.4 754.9 1373.1 765.5C1366.9 768.5 1361.2 771.0 1360.5 771.0C1356.6 771.0 1334.5 727.6 1336.6 724.2C1339.8 719.2 1375.6 704.3 1394.5 700.0C1415.3 695.4 1443.5 693.8 1467.5 695.9C1526.0 701.0 1563.0 731.3 1571.4 781.0C1573.9 796.3 1574.0 958.8 1571.4 960.7C1569.2 962.3 1511.5 962.6 1509.0 961.0C1507.9 960.3 1507.4 957.4 1507.0 949.1C1506.2 932.4 1504.0 931.4 1492.0 942.4C1473.5 959.4 1458.0 964.9 1427.0 965.5C1417.4 965.7 1407.9 965.6 1406.0 965.4ZM493.2 963.3C491.9 963.1 490.5 961.8 490.0 960.6C488.5 956.6 490.1 624.2 491.6 622.9C493.3 621.5 563.0 621.6 564.5 623.1C565.4 624.0 566.5 672.6 566.9 732.8C567.0 749.8 567.0 750.1 569.5 752.6C571.9 755.0 571.9 755.0 647.9 754.8C719.3 754.5 724.0 754.4 725.7 752.7C727.4 751.0 727.5 746.6 728.0 686.5C728.3 651.1 728.9 621.8 729.3 621.3C731.3 619.3 801.7 620.0 805.0 622.0C807.0 623.2 807.3 960.5 805.4 962.1C804.0 963.2 786.5 963.6 753.8 963.2C733.5 963.0 731.9 962.9 730.0 961.0C728.0 959.0 728.0 957.7 728.0 891.5C728.0 813.0 729.2 820.7 716.3 819.4C704.1 818.3 573.5 819.6 571.1 821.0C570.0 821.6 568.6 822.9 568.1 823.9C567.5 825.0 566.8 852.7 566.4 893.3C566.0 930.5 565.3 961.5 564.9 962.2C564.1 963.5 499.1 964.5 493.2 963.3ZM941.5 963.3C893.0 957.3 864.6 925.4 867.4 880.3C869.5 845.7 896.1 819.7 939.0 810.4C945.0 809.1 955.6 808.6 993.1 808.1C1045.7 807.4 1044.0 807.7 1044.0 800.1C1043.9 779.3 1027.3 759.0 1005.4 753.1C997.0 750.9 982.2 750.0 969.7 751.0C947.2 752.9 936.7 755.7 916.6 765.3C901.2 772.7 903.4 774.1 891.3 749.2C880.6 727.3 880.4 726.2 886.1 722.3C903.5 710.3 936.1 698.8 960.5 696.0C972.3 694.7 1007.1 694.7 1018.5 696.1C1076.6 703.0 1111.2 735.7 1117.2 789.6C1119.0 805.8 1118.9 958.5 1117.1 960.3C1115.5 961.9 1055.5 962.6 1053.6 961.1C1052.8 960.4 1052.0 956.3 1051.6 950.8C1050.5 936.3 1049.0 935.9 1033.5 946.1C1015.7 957.9 1007.2 960.9 986.1 963.0C976.4 963.9 948.1 964.2 941.5 963.3ZM1191.4 961.8C1190.4 960.3 1190.0 680.3 1190.9 636.0C1191.5 603.5 1191.5 603.5 1194.0 602.3C1198.5 600.2 1261.7 600.2 1263.8 602.4C1265.4 604.0 1265.5 612.6 1265.5 720.3C1265.5 784.2 1265.6 864.6 1265.8 898.9C1266.0 933.2 1265.8 961.5 1265.5 961.9C1264.2 963.2 1192.2 963.2 1191.4 961.8ZM1008.9 916.0C1022.2 911.4 1036.3 899.9 1042.2 888.7C1045.4 882.9 1045.7 854.3 1042.7 851.3C1041.0 849.6 1038.4 849.5 1007.8 849.7C965.0 850.0 957.1 851.5 947.6 860.6C931.7 875.8 936.4 902.2 957.1 913.4C969.1 920.0 994.0 921.2 1008.9 916.0ZM1464.3 915.1C1478.1 909.9 1491.2 898.6 1496.1 887.6C1500.2 878.2 1501.3 857.0 1497.9 852.6C1495.8 849.9 1495.8 849.9 1457.6 850.2C1419.5 850.5 1419.5 850.5 1413.8 853.3C1388.2 865.9 1388.0 902.2 1413.5 914.1C1422.3 918.2 1426.6 918.9 1442.0 918.6C1454.4 918.3 1456.2 918.1 1464.3 915.1Z"/></svg></symbol></svg>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap">
+  <a class="brand x" href="https://halago.co" aria-label="HalaGo home"><svg class="mark" aria-hidden="true"><use href="#hg-mark"/></svg><span>Hala<b>Go</b></span></a>
+  <span class="tag">Legal</span>
+  <nav class="nav" aria-label="Legal pages"><a href="/terms" aria-current="page">Terms</a><a href="/privacy">Privacy</a><a href="/delete-account">Delete account</a></nav>
+  <button class="icon-btn" id="theme" type="button" aria-label="Switch light or dark theme">
+    <svg class="i moon" viewBox="0 0 24 24"><path d="M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10z"/></svg>
+    <svg class="i sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg>
+  </button>
+</div></header>
+<nav class="mnav" aria-label="Legal pages"><a href="/terms" aria-current="page">Terms</a><a href="/privacy">Privacy</a><a href="/delete-account">Delete account</a></nav>
+
+<main id="main">
+<div class="wrap hero"><div class="hero-card">
+  <svg class="streaks" viewBox="0 0 300 110" aria-hidden="true">
+<defs><linearGradient id="sg" x1="0" x2="1"><stop offset="0" stop-color="#A4E49B" stop-opacity="0"/><stop offset="1" stop-color="#A4E49B" stop-opacity=".6"/></linearGradient></defs>
+<rect x="70" y="14" width="230" height="10" rx="5" fill="url(#sg)"/>
+<rect x="20" y="50" width="280" height="10" rx="5" fill="url(#sg)"/>
+<rect x="120" y="86" width="180" height="10" rx="5" fill="url(#sg)"/></svg>
+  <span class="eyebrow">HalaGo Legal</span>
+  <h1 class="x">Terms of Service</h1>
+  <p class="lead">The rules for earning and cashing out with HalaGo. Please read them carefully: they help keep payouts fast and fair for everyone.</p>
+  <div class="meta">
+    <span class="chip"><svg class="i" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="3"/><path d="M8 3v4M16 3v4M3.5 10h17"/></svg>Last updated <time datetime="2026-10-11">October 11, 2026</time></span>
+    <span class="chip"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>9 min read</span>
+    <span class="chip"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.6 2.6 3.6 5.6 3.6 8.5s-1 5.9-3.6 8.5c-2.6-2.6-3.6-5.6-3.6-8.5s1-5.9 3.6-8.5z"/></svg>Android app &amp; halago.online</span>
+    
+  </div>
+</div></div>
+
+<div class="wrap layout">
+  <aside class="toc" aria-label="On this page"><h2>On this page</h2><ol><li><a href="#about">About HalaGo and these Terms</a></li><li><a href="#eligibility">Eligibility and your account</a></li><li><a href="#earning">How earning works</a></li><li><a href="#points">Points</a></li><li><a href="#transfers">Transferring points</a></li><li><a href="#withdrawals">Withdrawals and payouts</a></li><li><a href="#feed">Public payouts feed</a></li><li><a href="#fair-play">Fair play and prohibited activity</a></li><li><a href="#enforcement">Fraud checks and enforcement</a></li><li><a href="#partners">Third‑party offers and services</a></li><li><a href="#closing">Closing your account</a></li><li><a href="#changes-service">Changes to the Service</a></li><li><a href="#liability">Disclaimer and limitation of liability</a></li><li><a href="#google">Google disclaimer</a></li><li><a href="#updates">Changes to these Terms</a></li><li><a href="#contact">Contact us</a></li></ol></aside>
+  <article>
+    <details class="toc-m"><summary>On this page</summary><ol><li><a href="#about">About HalaGo and these Terms</a></li><li><a href="#eligibility">Eligibility and your account</a></li><li><a href="#earning">How earning works</a></li><li><a href="#points">Points</a></li><li><a href="#transfers">Transferring points</a></li><li><a href="#withdrawals">Withdrawals and payouts</a></li><li><a href="#feed">Public payouts feed</a></li><li><a href="#fair-play">Fair play and prohibited activity</a></li><li><a href="#enforcement">Fraud checks and enforcement</a></li><li><a href="#partners">Third‑party offers and services</a></li><li><a href="#closing">Closing your account</a></li><li><a href="#changes-service">Changes to the Service</a></li><li><a href="#liability">Disclaimer and limitation of liability</a></li><li><a href="#google">Google disclaimer</a></li><li><a href="#updates">Changes to these Terms</a></li><li><a href="#contact">Contact us</a></li></ol></details>
+    <div class="summary"><h2 class="x">The short version</h2><ul class="ticks"><li><span>You must be <b>18 or older</b> and have <b>one account only</b>.</span></li><li><span><b>1,000 points = US$1.</b> Withdraw from 100 points to Binance Pay, Cwallet, Sham Cash or Syriatel Cash.</span></li><li><span>Payouts go out <b>twice a day, around 12 PM and 12 AM (GMT+3)</b>.</span></li><li><span>Partners decide whether an offer counts, and they can reverse credits.</span></li><li><span>VPNs, emulators, bots and multiple accounts lead to a <b>permanent ban</b>.</span></li></ul></div>
+    <section class="sec" id="about"><h2 class="x"><span class="n">01</span>About HalaGo and these Terms</h2>
+<p>HalaGo is a rewards platform. You earn points by completing offers, surveys and tasks from our partners, and you can exchange those points for real payouts. HalaGo is available as an Android app on Google Play (<b>co.halago.app</b>) and as a web app at <a href="https://halago.online">halago.online</a>. In these Terms, “HalaGo”, “we” and “us” refer to the operator of HalaGo, and “the Service” means both the app and the web app.</p>
+<p>By creating an account or using the Service, you agree to these Terms and to our <a href="/privacy">Privacy Policy</a>. If you do not agree, please do not use the Service.</p></section><section class="sec" id="eligibility"><h2 class="x"><span class="n">02</span>Eligibility and your account</h2>
+<ul>
+<li>You must be <b>at least 18 years old</b> and able to enter into a binding agreement.</li>
+<li>You sign in with Google or with an email address. Keep your login secure. You are responsible for everything that happens in your account.</li>
+<li><b>One account per person.</b> You may not create, buy, sell, share or operate more than one HalaGo account, and you may not sign in to other people’s accounts on your device or browser.</li>
+<li>Your account is personal and cannot be transferred to someone else.</li>
+<li>We may refuse, limit or close accounts where we are required to by law, by our partners or by these Terms.</li>
+</ul></section><section class="sec" id="earning"><h2 class="x"><span class="n">03</span>How earning works</h2>
+<p>You can earn points through:</p>
+<ul>
+<li><b>Offerwalls and surveys</b> from third‑party partners, shown in the Offers section.</li>
+<li><b>Featured partner offers</b> (Hot Offers) and other promotions.</li>
+<li><b>Daily rewards, levels and redeem codes</b> that we publish from time to time.</li>
+<li><b>Mini‑games and optional rewarded video ads</b>, available in the Android app only.</li>
+</ul>
+<p>Points from partner offers are credited only after the partner confirms that you completed the offer according to its own requirements. Partners decide whether a task qualifies and how long confirmation takes. Some credits may appear as pending, and partners may reverse credits later, for example after a chargeback or a fraud review. When that happens, we may deduct the reversed points from your balance.</p>
+<div class="note info"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8h.01"/></svg><p>Rewards, availability and requirements of offers vary by country, device and partner, and they can change or end at any time.</p></div></section><section class="sec" id="points"><h2 class="x"><span class="n">04</span>Points</h2>
+<ul>
+<li>For withdrawals, <b>1,000 points equal US$1.00</b>. The value is applied only when a withdrawal is approved.</li>
+<li>Points are a virtual reward, not money, a bank deposit or property. They have no cash value outside the Service and earn no interest.</li>
+<li>You may not sell, buy or trade points or accounts, inside or outside HalaGo.</li>
+<li>We may correct any points credited by mistake, through a technical error or in breach of these Terms.</li>
+</ul></section><section class="sec" id="transfers"><h2 class="x"><span class="n">05</span>Transferring points</h2>
+<p>The <b>Transfer Points</b> feature lets you send points to another HalaGo user by their user ID. Limits may apply and are shown in the app.</p>
+<ul>
+<li>Check the recipient carefully. Completed transfers are final and cannot be reversed.</li>
+<li>You may not use transfers to combine points from several accounts, to sell or buy points, or to move points out of an account that is under review or banned.</li>
+<li>If either account is found to be involved in fraud, we may reverse the transfer or block both accounts.</li>
+</ul></section><section class="sec" id="withdrawals"><h2 class="x"><span class="n">06</span>Withdrawals and payouts</h2>
+<p>You can withdraw from <b>100 points (US$0.10)</b> to the methods currently shown on the Withdraw page:</p>
+<div class="methods"><span>Binance Pay</span><span>Cwallet</span><span>Sham Cash (USD or SYP)</span><span>Syriatel Cash (SYP)</span></div>
+<ul>
+<li><b>Gift cards</b>, when offered, are delivered to the email address of your HalaGo account.</li>
+<li><b>Syrian pound payouts</b> are converted at the rate shown when you submit the request. Rates change often, so the amount in SYP may differ from one day to the next.</li>
+<li>If a method has fees, they are shown before you confirm.</li>
+<li><b>Timing:</b> payouts are sent in batches <b>twice a day, around 12:00 PM and 12:00 AM (GMT+3)</b>. Requests selected for manual review can take up to 7 business days.</li>
+</ul>
+<h3>Withdrawal statuses</h3>
+<div class="tbl-scroll"><table class="tbl stack"><thead><tr><th>Status</th><th>What it means</th></tr></thead><tbody>
+<tr><td data-k="Status"><span class="pill amb">Pending</span></td><td data-k="Meaning">We received your request and it is waiting for the next payout batch or for review.</td></tr>
+<tr><td data-k="Status"><span class="pill go">Done</span></td><td data-k="Meaning">The payout was sent to the wallet or number you entered.</td></tr>
+<tr><td data-k="Status"><span class="pill sky">Refunded</span></td><td data-k="Meaning">The payout could not be completed, so the points were returned to your balance.</td></tr>
+<tr><td data-k="Status"><span class="pill cor">Rejected</span></td><td data-k="Meaning">The request was declined after review, usually because of a breach of these Terms. A short reason may be shown in your history. Points involved in fraud are not returned.</td></tr>
+</tbody></table></div>
+<div class="note warn"><svg class="i" viewBox="0 0 24 24"><path d="M12 4 2.8 19.5h18.4z"/><path d="M12 10v4.5M12 17h.01"/></svg><p><b>Double‑check your wallet details.</b> Payouts sent to the wallet ID or phone number you entered cannot be reversed. We are not responsible for losses caused by incorrect details.</p></div>
+<p>We may ask you to verify your identity or account ownership before paying, and we may hold or refuse a payout if we detect suspicious activity.</p></section><section class="sec" id="feed"><h2 class="x"><span class="n">07</span>Public payouts feed</h2>
+<p>To show that payouts are real, the app and the web app display a live feed of recent payouts. When one of your withdrawals is paid, the feed may show for up to 7 days:</p>
+<ul>
+<li>your display name and avatar,</li>
+<li>the amount and payout method,</li>
+<li>the last 3 characters of your wallet, masked like <b>***a7f</b>.</li>
+</ul>
+<p>Your full wallet ID, phone number and email address are never shown. Banned accounts are never shown. Learn more in our <a href="/privacy#feed">Privacy Policy</a>.</p></section><section class="sec" id="fair-play"><h2 class="x"><span class="n">08</span>Fair play and prohibited activity</h2>
+<p>To keep HalaGo fair and to protect our partners, the following are strictly prohibited:</p>
+<ul>
+<li>Using a VPN, proxy, Tor or any tool that hides or changes your real location or IP address.</li>
+<li>Using emulators, virtual devices, app cloners or parallel‑app tools, or rooted, jailbroken or modified devices and apps.</li>
+<li>Using bots, scripts, auto‑clickers, automated or headless browsers, or any automation.</li>
+<li>Creating or using more than one account, or using your device or browser for other people’s accounts.</li>
+<li>Completing offers with fake, borrowed or misleading information, or reinstalling apps to repeat offers.</li>
+<li>Exploiting bugs, or manipulating games, ads, redeem codes or transfers.</li>
+<li>Selling, buying or sharing accounts, points or referral rewards.</li>
+<li>Abusing, threatening or impersonating HalaGo staff or other users.</li>
+</ul></section><section class="sec" id="enforcement"><h2 class="x"><span class="n">09</span>Fraud checks and enforcement</h2>
+<p>We use automated and manual checks on devices, browsers, networks and activity to detect fraud. Our <a href="/privacy">Privacy Policy</a> explains what data these checks use.</p>
+<p>If we reasonably believe you broke these Terms, we may, without prior notice:</p>
+<ul>
+<li>hold or reverse points, transfers and withdrawals,</li>
+<li>limit features or suspend your account,</li>
+<li>permanently ban your account, and block the devices and browsers linked to it from creating new accounts,</li>
+<li>forfeit your balance, and share relevant information with the affected partner.</li>
+</ul>
+<div class="note info"><svg class="i" viewBox="0 0 24 24"><path d="M12 3.5 5 6v5.5c0 4.3 2.9 7.6 7 9 4.1-1.4 7-4.7 7-9V6z"/><path d="m9 12 2.2 2.2L15.5 10"/></svg><p>If you believe we made a mistake, contact <a href="mailto:support@halago.co">support@halago.co</a> from the email linked to your account. We review every appeal, but our decision after review is final.</p></div></section><section class="sec" id="partners"><h2 class="x"><span class="n">10</span>Third‑party offers and services</h2>
+<p>Offers, surveys, apps and ads are provided by independent third parties with their own terms and privacy policies. We do not control them and we are not responsible for their content, products, purchases you make through them, or their decision to approve or reject a task. Please read a partner’s requirements before starting an offer, and never share passwords or payment card details with a survey or offer.</p></section><section class="sec" id="closing"><h2 class="x"><span class="n">11</span>Closing your account</h2>
+<ul>
+<li>You can delete your account at any time. See <a href="/delete-account">how to delete your account</a>. Deleting forfeits any remaining points.</li>
+<li>We may close accounts that have been inactive for more than <b>90 consecutive days</b>, and any remaining points may be forfeited.</li>
+<li>We may also close accounts for the reasons in “Fraud checks and enforcement”.</li>
+</ul></section><section class="sec" id="changes-service"><h2 class="x"><span class="n">12</span>Changes to the Service</h2>
+<p>We are constantly improving HalaGo. We may add, change or remove features, partners, payout methods, minimums, rewards and limits at any time, including features that are available on one platform only.</p></section><section class="sec" id="liability"><h2 class="x"><span class="n">13</span>Disclaimer and limitation of liability</h2>
+<p>The Service is provided “as is” and “as available”. We do not promise that it will be uninterrupted, error‑free, or available in every country.</p>
+<p>To the maximum extent permitted by law, HalaGo is not liable for indirect or consequential damages, lost earnings, or losses caused by partners, payment providers, network problems or incorrect payout details. Our total liability to you is limited to the value of approved withdrawals that we have not yet paid you.</p></section><section class="sec" id="google"><h2 class="x"><span class="n">14</span>Google disclaimer</h2><div class="note legal"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8h.01"/></svg><p>Google LLC is not a sponsor of, and is not in any way affiliated with, the rewards, sweepstakes or promotional activities offered in HalaGo. All rewards and payouts are solely the responsibility of HalaGo.</p></div></section><section class="sec" id="updates"><h2 class="x"><span class="n">15</span>Changes to these Terms</h2>
+<p>We may update these Terms from time to time. We will change the “Last updated” date above and, for important changes, notify you in the app or on our Telegram channel. If you keep using the Service after an update, you accept the new Terms.</p></section><section class="sec" id="contact"><h2 class="x"><span class="n">16</span>Contact us</h2>
+<p>Questions about these Terms? We are happy to help.</p>
+<div class="contact">
+<a href="mailto:support@halago.co"><small>Email</small><span>support@halago.co</span></a>
+<a href="https://t.me/halagosupport"><small>Support on Telegram</small><span>@halagosupport</span></a>
+<a href="https://t.me/halagoapp"><small>News channel</small><span>t.me/halagoapp</span></a>
+</div></section>
+  </article>
+</div>
+</main>
+
+<footer class="foot"><div class="wrap">
+  <a class="brand x" href="https://halago.co"><svg class="mark" aria-hidden="true"><use href="#hg-mark"/></svg><span>Hala<b>Go</b></span></a>
+  <nav aria-label="Footer">
+    <a href="/terms">Terms</a><a href="/privacy">Privacy</a><a href="/delete-account">Delete account</a>
+    <a href="https://halago.online">Web app</a><a href="https://t.me/halagoapp">Telegram</a><a href="mailto:support@halago.co">support@halago.co</a>
+  </nav>
+  <span class="copy">© 2026 HalaGo</span>
+</div></footer>
+<button class="icon-btn totop" id="totop" type="button" aria-label="Back to top"><svg class="i" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+
+<script>
+(function(){
+  var root=document.documentElement;
+  function isDark(){var a=root.getAttribute("data-theme");if(a)return a==="dark";return !(window.matchMedia&&matchMedia("(prefers-color-scheme: light)").matches)}
+  document.getElementById("theme").addEventListener("click",function(){
+    var next=isDark()?"light":"dark";root.setAttribute("data-theme",next);
+    try{localStorage.setItem("hg_theme",next)}catch(e){}
+  });
+  var top=document.getElementById("totop");
+  addEventListener("scroll",function(){top.classList.toggle("show",scrollY>900)},{passive:true});
+  top.addEventListener("click",function(){scrollTo({top:0})});
+  var m=document.querySelector(".toc-m");
+  if(m)m.addEventListener("click",function(e){if(e.target.closest("a"))m.open=false});
+  var links=[].slice.call(document.querySelectorAll(".toc a"));
+  if("IntersectionObserver" in window&&links.length){
+    var map={};links.forEach(function(a){map[a.getAttribute("href").slice(1)]=a});
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.remove("on")});var a=map[e.target.id];if(a)a.classList.add("on")}})},{rootMargin:"-30% 0px -60% 0px"});
+    document.querySelectorAll("section.sec").forEach(function(s){io.observe(s)});
+  }
+})();
+</script>
+</body>
+</html>
